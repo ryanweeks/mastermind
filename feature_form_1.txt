@@ -1,0 +1,21 @@
+CSI 330: Software Feature/Requirement Form 1
+
+Project: Mastermind - A classic board game recreated as a gui in Java
+
+Owner: Ryan Weeks
+
+Date: May, 2015
+
+Feature/Requirement 1: Implement a User class to store statistics
+of the game about the user. This will include amount of games played, 
+times won, high score and etc. Tests will check to see that statistics are
+propely kept when user completes a game.
+
+Feature/Requiremtnt 2: Implement a User saving and Loading system that can
+load a user's information upon request, and can save user information upon
+app close or user request. Tests will check to make sure information is
+propely saved, and properly loaded.
+
+Language: Java
+
+Testing Framework: JUnit

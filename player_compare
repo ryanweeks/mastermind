@@ -1,0 +1,17 @@
+2.42
+1.46
+
+double winRatio1 = (double)(this.gamesWon/this.gamesPlayed);
+double winRatio2 = (double)(player2.gamesWon/player2.gamesPlayed);
+
+double winWeight = 0.7;
+double scoreWeight = 0.3;
+
+// Because high score is actually a low score, - 10 is max amt of turns
+double highScore1 = 10 - this.highScore;
+double highScore2 = 10 - this.highScore;
+
+double totalScore1 = (winRatio1 * winWeight) + (highScore1 * scoreWeight);
+double totalScore2 = (winRatio2 * winWeight) + (highScore2 * scoreWeight);
+
+return totalScore1 > totalScore2;

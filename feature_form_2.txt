@@ -1,0 +1,15 @@
+CSI 330: Software Feature/Requirement Form 2
+
+Project: Mastermind - A classic board game recreated as a gui in Java
+
+Owner: Ryan Weeks
+
+Date: May, 2015
+
+Feature/Requirement 1: Compare two players - Compare the two players and create an algorithm that can determine who the better player is.
+
+Feature/Requiremtnt 2: Implement Create/Load User gui. Essentially this will add a field to login and create new users on the title screen. The tests will make sure the player is created and loaded correctly.
+
+Language: Java
+
+Testing Framework: JUnit
